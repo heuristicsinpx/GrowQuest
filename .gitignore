@@ -1,7 +1,21 @@
-# .gitignore
+# Python
 venv/
 __pycache__/
+*.pyc
+
+# Node
 node_modules/
 dist/
+build/
+
+# Env and secrets
 .env
-*.pyc
+.env.*
+
+# Editor files
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
